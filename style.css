@@ -1,0 +1,478 @@
+/* ここから下に記載していく */
+body{
+    /* サイト全体の幅を1200pxに設定 */
+    width: 1200px;
+    margin: 0 auto;    
+}
+
+.header{
+    display: flex;
+    justify-self: start;
+}
+
+.imgaicon{
+margin: 20px;
+}
+
+.kurikku{
+    padding: 50px;
+    color: black;
+    font-size: 21px;
+}
+
+.kurikku a {
+    margin-right: 50px;
+    text-decoration: none; /* 下線を消す */
+    color: black;
+    font-size: 21px;
+}
+.kurikku a:last-child {
+    margin-right: 0;
+    /* 最後の右の空白をなくす */
+}
+
+.img img{
+    /* 画像の幅を1200pxに設定 */
+width: 1200px;
+}
+
+.top{
+    white-space:nowrap;
+    /* 画像の上に文字を載せるため、親要素を設定 */
+    position: relative;
+}
+
+.top .a{
+     /* 世界を変えるチーズの文字を画像の上に載せる、配置、文字の大きさなど設定 */
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.top .b{
+    /* チーズ職人養成学校の文字を画像の上に載せる、配置、文字の大きさなど設定 */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 32px;
+    font-weight: 40;
+
+    /* 世界を変えるチーズを・・・の48pxの半分と、行間の30pxを足した */
+    margin-top: 54px;
+}
+
+.yellow-text
+{
+    /* 黄色のコンテンツを真ん中にする、文字の大きさ整える */
+    text-align:center;
+    color: #ffd61a;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.about{
+    /* アバウトの文字幅を60px空ける */
+    margin-top: 60px;
+}
+
+.ti-z{
+     /* 「チーズアカデミーについて」アバウトから文字幅を60px空ける */
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+}
+
+
+.center{
+    /*  「チーズアカデミーは、チーズ職人養成学校です。」以下の文章について全部真ん中へ行間の調整*/
+    text-align: center;
+    line-height: 2.0;
+    font-size: 16px;
+}
+
+.ti-z2 {
+    /* 「チーズアカデミーは、チーズ職人養成学校です。」について、アバウトから文字幅を60px空ける */
+   margin-bottom: 40px;
+}
+
+.ti-z3{
+    margin-bottom: 80px;
+}
+
+.cs{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.black-daimei
+{
+    /* 黄色のコンテンツを真ん中にする、文字の大きさ整える */
+    text-align:center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cr{
+    background:#fafafa;
+}
+.cs2{
+    text-align: center;
+    line-height: 2.0;
+    font-size: 16px;
+    margin-bottom:60px ;
+}
+
+.cs3 {
+    /* 小要素を横並びにする */
+    display: flex;
+    /* 文章を縦と横の真ん中に */
+    align-items: center;
+    text-align: right;
+}
+.cs3 img {
+    /* 写真を左半分に、高さはオート右側の余白を調整 */
+    width: 50%;
+    height: auto;
+    margin-right: 50px;
+}
+
+.cs3-text{
+    /* 左寄せの文章に、行間を調整、最大幅の調整 */
+    text-align: left;
+    line-height: 2.0;
+    font-size: 16px;
+    max-width: 450px;
+}
+
+
+.cs3-daimei{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.cs4{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: end;
+}
+
+.cs4 img {
+    /* 写真を左半分に、高さはオート右側の余白を調整 */
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+
+}
+
+.cs4-text{
+    /* 左寄せの文章に、行間を調整、最大幅の調整 */
+    text-align: left;
+    line-height: 2.0;
+    font-size: 16px;
+    max-width: 430px;
+}
+
+.cs4-daimei{
+    font-size: 24px;
+    font-weight: 650;
+    margin-bottom: 40px; 
+}
+
+.ns{
+    /* ニュースの文字幅を60px空ける */
+    margin-top: 60px;
+}
+
+.ns img{
+    max-width: 300px;
+}
+
+.n-s{
+     /* 二ュースの本文から文字幅を60px空ける */
+    margin-top: 30px;
+    margin-bottom: 60px;
+    line-height: 2.0;
+    
+}
+
+.nsmoji{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.hiduke{
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+
+.nsbunsyo{
+max-width: 300px;
+}
+
+.ns1:hover{
+  transform: scale(1.1); /* 要素を1.1倍に拡大 */
+  transition: transform 0.3s ease;
+}
+
+.ns2:hover{
+    transform: scale(1.1); /* 要素を1.1倍に拡大 */
+    transition: transform 0.3s ease;
+  }
+
+.ns3:hover{
+    transform: scale(1.1); /* 要素を1.1倍に拡大 */
+    transition: transform 0.3s ease;
+  }
+
+.ns4{
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    font-size: 16px;
+
+}
+
+.nsbunsyo {
+    max-width: 300px;
+    font-size: 16px;
+}
+
+.more{
+    font-size: 18px;
+    text-align: center;
+    background: #ffd61a;
+    color: white;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 60px auto;
+}
+
+.more:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer; /* カーソルを矢印に変更 */
+    transform: scale(1.1); /* 要素を1.1倍に拡大 */
+    transition: transform 0.3s ease;
+  }
+
+.access{
+    background: #fafafa;
+}
+
+.ac1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.ac2{
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.ac3{
+    /* アクセスの題名部分 */
+    padding-top: 60px;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ac{
+    /* アクセスの文章部分を真ん中で左寄せ、同じところからスタート */
+text-align: left;
+margin-left: 400px;
+
+}
+
+.ac4{
+    display: flex;    
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.aclabel{
+    /* アクセスの学校名とか所在地の幅を固定 */
+    width: 120px;
+}
+.accontent{
+    /* 実際の学校名を、ラベルの学校名とかから50px離す */
+    margin-left: 50px;
+
+}
+.ac5 {
+    margin-bottom: 30px;
+    display: flex;   
+}
+
+.ac6{
+    margin-bottom: 30px;
+    display: flex;   
+}
+
+.ac7{
+    margin-bottom: 30px;
+    display: flex;   
+}
+
+.ac8{
+    /* メールアドレスのところ */
+   padding-bottom: 60px;
+   display: flex;   
+}
+
+.ct{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 2.0;
+}
+
+.ctbunsyo{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.ct1{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.ct2{
+    margin-bottom: 30px;
+   
+}
+
+td{
+    border-top: 1px solid #bfbfbf;
+    padding: 8px 64px 8px 16px;
+}
+
+.formtitle{
+    width: 400px;
+    vertical-align: middle;  
+}
+
+
+.formcontent{
+    width: 400px;
+    /* margin-left: 8px; */
+    border-left: 1px solid #bfbfbf;
+    vertical-align: top;
+}
+table{
+    font-size: 14px;
+    margin: auto;
+    border-top:#bfbfbf;
+    text-align: left;
+    width: 640px;
+    
+}
+
+input[type="text"]{
+    width: 328px;
+    height: 36px;
+    border: 1px solid #bfbfbf;
+}
+
+
+
+.syousai-input{
+    height: 100px;
+    width: 328px;
+    vertical-align: top;
+    border: 1px solid #bfbfbf;
+    font-size: 14px;
+
+}
+
+/* チェックボックスのスタイル */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    margin-top: -1px;
+    border-radius: 3px;
+    background-color: #ddd;
+    vertical-align: middle;
+    transition: .3s;
+}
+
+/* チェックボックスが選択された時の背景色 */
+input[type=checkbox]:checked {
+    background: brown;
+}
+
+/* チェックされたチェックボックスの前のアイコン（FontAwesome） */
+input[type=checkbox]:checked::before {
+    position: absolute;
+    padding: 4px;
+    color: white;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 10px;
+    content: '\f00c';  /* チェックマークアイコン */
+}
+
+/* 標準のチェックボックス（ラベルのスタイル） */
+.siboudouki {
+    accent-color: brown;
+}
+
+.sentakusi{
+    height: 50px;
+    width: 333px;
+    vertical-align: top;
+    border: 1px solid #bfbfbf;
+    font-size: 14px;
+}
+
+
+button[type="submit"]{
+   font-size: 18px;
+        text-align: center;
+        border: #ffd61a;
+        background: #ffd61a;
+        color: white;
+        width: 300px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin: 60px auto;
+}
+
+button[type="submit"]:hover {
+    background-color: brown;
+    color: white;
+    cursor: pointer; /* カーソルを矢印に変更 */
+    transform: scale(1.1); /* 要素を1.1倍に拡大 */
+    transition: transform 0.3s ease;
+  }
+
+
+
+/* フッター部分 */
+.footer{
+    background: #707070;
+    text-align: center;
+    margin-top: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fafafa;
+}
